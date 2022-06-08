@@ -14,7 +14,9 @@
 ### 今週はディープラーニングを用いたアヤメの分類を実装してもらいます。
 
 参考サイト
-・
-・
+・https://yoshinashigoto-blog.herokuapp.com/detail/29/
+
+・https://yoshinashigoto-blog.herokuapp.com/detail/30/
+
 
 
