@@ -7,7 +7,6 @@
 次回はYOLOと言われる深層学習モデルを自分で実装してもらいます
 """
 
-import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
@@ -74,12 +73,6 @@ test_batch = DataLoader(
     shuffle = False,
     num_workers = 2
 )
-
-## for文で回してサイズを確認する
-for data, label in train_batch:
-    print("batch data size: {}".format(data.size()))
-    print("batch label size: {}".format(label.size()))
-    break
 
 ## パラメータ表示
 #ハイパーパラメータ
