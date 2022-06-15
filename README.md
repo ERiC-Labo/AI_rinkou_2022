@@ -29,6 +29,7 @@ week5に動作確認したものを載せていますが、これは参考程度
 必要なデータはweek5のものを使って大丈夫です。
 
 参考サイト
+
 ・https://www.kaggle.com/code/gotutiyan/titanic-tutorial-pytorch-japanese/notebook
 
 
