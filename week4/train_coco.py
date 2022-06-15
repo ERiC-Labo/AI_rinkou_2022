@@ -14,11 +14,13 @@ def parse_args():
     # fmt: off
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--dataset_dir", type=Path, default="/data/COCO",
+        # "--dataset_dir", type=Path, default="./data/coco/images",
+        "--dataset_dir", type=Path, default="/home/ericlab/AI_rinkou_2022/week4/data/coco/images",
         help="directory path to coco dataset",
     )
     parser.add_argument(
-        "--anno_path", type=Path, default="/data/COCO/annotations/instances_val5k.json",
+        # "--anno_path", type=Path, default="./data/coco/annotations/instances_train2014k.json",
+        "--anno_path", type=Path, default="/home/ericlab/AI_rinkou_2022/week4/data/coco/annotations/instances_train2014.json",
         help="json filename",
     )
     parser.add_argument(

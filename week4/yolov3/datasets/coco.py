@@ -66,13 +66,13 @@ class COCODataset(torch.utils.data.Dataset):
 
         self.samples = []
         for img_id in self.coco.getImgIds():
-            # for img_id in self.coco.getImgIds()[:3]:  # 変更点
-            # 画像を読み込む。
-            img_name = self.coco.imgs[img_id]["file_name"]
-            if (dataset_dir / "train2017" / img_name).exists():
-                img_path = str(dataset_dir / "train2017" / img_name)
-            else:
-                img_path = str(dataset_dir / "val2017" / img_name)
+            for img_id in self.coco.getImgIds()[:3]:  # 変更点
+                # 画像を読み込む。
+                img_name = self.coco.imgs[img_id]["file_name"]
+                if (dataset_dir / "train2014" / img_name).exists():
+                    img_path = str(dataset_dir/"train2014"/img_name)
+                else:
+                    img_path = str(dataset_dir/"val2014"/img_name)
 
             # 画像 ID のアノテーションを取得する。
             annotations = self.coco.imgToAnns[img_id]
