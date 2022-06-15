@@ -32,13 +32,13 @@ GPUがない人もいるので二人一組でやってもらいます。
 ④学習(ここまで今週)
 
 
-　python3 train_coco.py --anno_path (アノテーションのjsonファイルのパス) 
+　python3 train_coco.py --anno_path (アノテーションのjsonファイル(パス/~.json)) --dataset_dir (データセットの画像までのパス) 
 
 
 ⑤推論(学習で得た重みから、好きな画像で物体検出)
 
 
-　python3 detect_image.py --input data/sazae.jpeg
+　python3 detect_image.py --input (推論する画像) 
 　
  
 ![sazae](https://user-images.githubusercontent.com/85509359/173790445-a59e5751-096d-4491-b0bd-12cec7cea5bb.jpeg)
