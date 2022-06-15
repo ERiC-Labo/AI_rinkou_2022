@@ -38,7 +38,10 @@ GPUがない人もいるので二人一組でやってもらいます。
 ⑤推論(学習で得た重みから、好きな画像で物体検出)
 
 
-　python3 detect_image.py --input (推論する画像) 
+　python3 detect_image.py --input (推論する画像) --weights (推論に使う重みファイル) 
+ 
+ 
+ 推論の例
 　
  
 ![sazae](https://user-images.githubusercontent.com/85509359/173790445-a59e5751-096d-4491-b0bd-12cec7cea5bb.jpeg)
