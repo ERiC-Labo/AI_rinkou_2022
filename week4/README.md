@@ -21,4 +21,5 @@ GPUがない人もいるので二人一組でやってもらいます。
 　
 ![sazae](https://user-images.githubusercontent.com/85509359/173790445-a59e5751-096d-4491-b0bd-12cec7cea5bb.jpeg)
 　
+ 
  波平とカツオは人間と認識されませんでした。
