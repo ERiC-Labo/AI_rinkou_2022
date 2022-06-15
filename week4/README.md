@@ -32,7 +32,7 @@ GPUがない人もいるので二人一組でやってもらいます。
 ④学習(ここまで今週)
 
 
-　python3 train_coco.py
+　python3 train_coco.py --anno_path (アノテーションのjsonファイルのパス) 
 
 
 ⑤推論(学習で得た重みから、好きな画像で物体検出)
